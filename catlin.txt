@@ -1,0 +1,44 @@
+
+EVIDENCIA GA7-220501096-AA1-EV03
+IDENTIFICA HERRAMIENTAS DE VERSIONAMIENTO
+
+PROGRAMA: Tecnología en Análisis y Desarrollo de Software
+APRENDIZ: Sandy
+USUARIO GITHUB: Sandy-dev-boop
+
+1. ¿QUÉ ES GIT?
+Git es un sistema de control de versiones que permite registrar los cambios realizados en los archivos de un proyecto y recuperar versiones anteriores.
+
+2. ¿QUÉ ES GITHUB?
+GitHub es una plataforma en línea que permite alojar repositorios Git y trabajar con proyectos de manera colaborativa.
+
+3. COMANDOS PRINCIPALES DE GIT
+
+git init: inicializa un repositorio local.
+git status: muestra el estado de los archivos.
+git add: prepara los archivos para confirmar los cambios.
+git commit: registra los cambios en el historial.
+git branch: permite administrar ramas.
+git merge: integra cambios de diferentes ramas.
+git remote: administra las conexiones remotas.
+git remote add: agrega un repositorio remoto.
+git remote -v: muestra las direcciones remotas.
+git remote set-url: modifica la dirección del repositorio remoto.
+git fetch: consulta cambios del repositorio remoto.
+git pull: descarga e integra cambios.
+git push: envía los cambios al repositorio remoto.
+
+4. REPOSITORIO LOCAL Y REMOTO
+
+El repositorio local se encuentra almacenado en el dispositivo del desarrollador.
+El repositorio remoto se encuentra alojado en una plataforma como GitHub.
+
+5. CONTROL DE VERSIONES
+
+Git permite registrar modificaciones mediante confirmaciones llamadas commits.
+Cada commit conserva un registro de los cambios realizados en el proyecto.
+
+CONCLUSIÓN
+
+Las herramientas de versionamiento permiten organizar, controlar y respaldar los cambios realizados durante el desarrollo de software. Git y GitHub facilitan el seguimiento de versiones y el trabajo colaborativo.
+
