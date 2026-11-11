@@ -18,14 +18,19 @@ public class Conexion {
             throw new SQLException("No se ha configurado la contraseña de la base de datos.");
         }
 
+        try {
+            Class.forName("org.mariadb.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            throw new SQLException("No se encontró el controlador JDBC de MariaDB.", e);
+        }
+
         return DriverManager.getConnection(URL, USUARIO, clave);
     }
 
     public static void main(String[] args) {
         try (Connection conexion = conectar()) {
             System.out.println("¡Conexión exitosa con MariaDB!");
-            System.out.println("Base de datos: " +
-                    conexion.getCatalog());
+            System.out.println("Base de datos: " + conexion.getCatalog());
         } catch (SQLException e) {
             System.out.println("Error de conexión: " + e.getMessage());
         }
